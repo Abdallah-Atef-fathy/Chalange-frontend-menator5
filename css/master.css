@@ -1,0 +1,206 @@
+/* Start Basics */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: hsl(171, 66%, 44%);
+    --primary-color: hsl(233, 100%, 69%);
+    --dash-color: hsl(210, 10%, 33%);
+    --grish-color: hsl(201, 11%, 66%);
+}
+
+body {
+    font-size: 18px;
+}
+
+.continar {
+    padding-left: 350px;
+    padding-right: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text {
+    text-align: center;
+    align-items: center;
+}
+.text h1 {
+    color: var(--dash-color);
+}
+.text p {
+    color: var(--grish-color);
+    font-size: 15px;
+    padding-top: 20px;
+}
+footer .continar .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 130px;
+}
+
+footer .continar .button button {
+    padding: 10px 30px;
+    margin-left: 13px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: var(--main-color);
+    box-shadow: 2px 3px 5px 0px var(--main-color);
+    transition: 0.4s;
+}
+
+footer .continar .button button:hover {
+    opacity: 50%;
+}
+
+footer .continar .button .mac {
+    background-color: var(--primary-color);
+    box-shadow: 2px 3px 5px 0px var(--primary-color);
+}
+
+footer .continar .button .mac:hover {
+    opacity: 50%;
+}
+
+/* End Basics */
+/* Start header */
+header {
+    background-image: url(../images/bg-header-desktop.png);
+    background-size: cover;
+}
+
+header .continar img {
+    margin-left: 200px;
+    padding: 60px 0;
+    padding-top: 100px;
+}
+
+header .continar .text {
+    text-align: center;
+}
+header .continar .text p {
+    font-size: 15px;
+    color: var(--grish-color);
+    text-align: center;
+}
+
+header .continar .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    padding-bottom: 130px;
+}
+
+header .continar .button button {
+    padding: 10px 30px;
+    margin-left: 13px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: var(--main-color);
+    box-shadow: 2px 3px 5px 0px var(--main-color);
+    transition: 0.4s;
+}
+
+header .continar .button button:hover {
+    opacity: 50%;
+}
+
+header .continar .button .mac {
+    background-color: var(--primary-color);
+    box-shadow: 2px 3px 5px 0px var(--primary-color);
+}
+
+header .continar .button .mac:hover {
+    opacity: 50%;
+}
+
+/* End header */
+/* Start Landing */
+main .landing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    padding-bottom: 80px;
+}
+
+main .landing img {
+    width: 650px;
+    padding: 30px;
+}
+main .landing .text h1 {
+    padding: 20px;
+    color: var(--dash-color);
+    font-size: 25px;
+}
+
+main .landing .text p {
+    padding: 0 100px;
+    font-size: 15px;
+    text-align: center;
+    color: var(--grish-color);
+}
+main .continar .text p {
+    padding-bottom: 80px;
+}
+main .continar img {
+    width: 700px;
+    padding-bottom: 90px;
+}
+main .title {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 150px;
+}
+main .icone .text img {
+    width: 50px;
+    padding: 0;
+    padding-bottom: 20px;
+}
+main .title .text h1 {
+    font-size: 25px;
+}
+main .imge {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 160px;
+}
+footer .continar .text {
+    padding-bottom: 60px;
+}
+
+/* End Landing */
+/* Start Footer */
+footer .about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f5f6f8;
+}
+footer .about .logo img {
+    width: 80px;
+    padding: 20px 0;
+    margin-left: 100px;
+}
+footer .about .links {
+    margin-right: 100px;
+}
+footer .about .links img {
+    padding: 0 10px;
+    width: 40px;
+    cursor: pointer;
+}
+footer .about pre {
+    font-size: 15px;
+    color: var(--grish-color);
+}
+/* End Footer */
